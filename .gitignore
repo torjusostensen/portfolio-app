@@ -3,6 +3,7 @@
 .env*
 !.env.example
 !.env.defaults
+!.env.development
 .netlify
 .redwood/*
 !.redwood/README.md
