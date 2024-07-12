@@ -1,15 +1,16 @@
 import { Link, routes } from '@redwoodjs/router'
+import './Article.css'
 
 const Article = ({ article }) => {
   return (
-    <article>
+    <article className="article-card">
       <header>
         <h2>
           <Link to={routes.article({ id: article.id })}>{article.title}</Link>
         </h2>
       </header>
-      <div>{article.body}</div>
-      <p>Posted at: {article.createdAt}</p>
+      <div className="article-body">{article.body}</div>
+      <p className="article-meta">Posted at: {article.createdAt}</p>
     </article>
   )
 }

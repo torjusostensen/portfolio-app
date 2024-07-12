@@ -7,9 +7,10 @@
     ]
   },
   "devDependencies": {
-    "@redwoodjs/auth-dbauth-setup": "7.7.2",
-    "@redwoodjs/core": "7.7.2",
-    "@redwoodjs/project-config": "7.7.2"
+    "@redwoodjs/auth-dbauth-setup": "7.7.3",
+    "@redwoodjs/core": "7.7.3",
+    "@redwoodjs/project-config": "7.7.3",
+    "tailwindcss": "^3.4.4"
   },
   "eslintConfig": {
     "extends": "@redwoodjs/eslint-config",
@@ -23,6 +24,7 @@
   },
   "packageManager": "yarn@4.3.0",
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "dotenv": "^16.4.5"
   }
 }

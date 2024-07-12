@@ -48,6 +48,7 @@ const ContactPage = () => {
           Name
         </Label>
         <TextField
+          className="text-3xl font-bold underline text-green-600 border"
           name="name"
           validation={{ required: true }}
           errorClassName="error"
