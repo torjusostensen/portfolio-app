@@ -35,6 +35,7 @@ const ContactPage = () => {
   return (
     <>
       <Metadata title="Contact" description="Contact page" />
+      <h1>Contact</h1>
       <Toaster />
       <Form
         onSubmit={onSubmit}

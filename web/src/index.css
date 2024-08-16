@@ -6,6 +6,9 @@ ul {
   margin: 1rem 0;
   padding: 0;
 }
+h1 {
+  text-align: center;
+}
 li {
   display: inline-block;
   margin: 0 1rem 0 0 ;

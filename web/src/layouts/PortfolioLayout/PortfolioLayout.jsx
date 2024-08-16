@@ -11,7 +11,7 @@ const PortfolioLayout = ({ children }) => {
       <header className="header">
         <div className="logo">
           <h1>
-            <Link to={routes.home()}>Redwood Portfolio</Link>
+            <Link to={routes.home()}>Torjus Østensen</Link>
           </h1>
         </div>
         <div className="right-section">
