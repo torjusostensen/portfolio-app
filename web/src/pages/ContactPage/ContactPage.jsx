@@ -35,20 +35,20 @@ const ContactPage = () => {
   return (
     <>
       <Metadata title="Contact" description="Contact page" />
-
       <Toaster />
       <Form
         onSubmit={onSubmit}
         config={{ mode: 'onBlur' }}
         error={error}
         formMethods={formMethods}
+        className=""
       >
         <FormError error={error} wrapperClassName="form-error" />
         <Label name="name" errorClassName="error">
           Name
         </Label>
         <TextField
-          className="text-3xl font-bold underline text-green-600 border"
+          className=""
           name="name"
           validation={{ required: true }}
           errorClassName="error"

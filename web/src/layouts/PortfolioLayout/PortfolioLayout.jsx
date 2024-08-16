@@ -1,4 +1,5 @@
 import { Link, routes } from '@redwoodjs/router'
+
 import { useAuth } from 'src/auth'
 import './PortfolioLayout.css'
 
@@ -16,9 +17,15 @@ const PortfolioLayout = ({ children }) => {
         <div className="right-section">
           <nav className="main-nav">
             <ul>
-              <li><Link to={routes.home()}>Home</Link></li>
-              <li><Link to={routes.about()}>About</Link></li>
-              <li><Link to={routes.contact()}>Contact</Link></li>
+              <li>
+                <Link to={routes.home()}>Home</Link>
+              </li>
+              <li>
+                <Link to={routes.about()}>About</Link>
+              </li>
+              <li>
+                <Link to={routes.contact()}>Contact</Link>
+              </li>
             </ul>
           </nav>
           {isAuthenticated ? (
@@ -29,7 +36,9 @@ const PortfolioLayout = ({ children }) => {
               </button>
             </div>
           ) : (
-            <Link to={routes.login()} className="login-link">Login</Link>
+            <Link to={routes.login()} className="login-link">
+              Login
+            </Link>
           )}
         </div>
       </header>

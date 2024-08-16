@@ -1,5 +1,4 @@
 import { Link, routes } from '@redwoodjs/router'
-import './Article.css'
 
 const Article = ({ article }) => {
   return (
